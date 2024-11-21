@@ -6,10 +6,10 @@
 <hr>
 <h1 id="instruksi-tugas-praktikum">Instruksi Tugas Praktikum</h1>
 <h3 id="tujuan-tugas">Tujuan Tugas</h3>
-<p>Lakukan pemindaian jaringan menggunakan Nmap untuk menemukan jumlah server dan detail informasi layanan dalam jaringan <strong>172.16.100.0/24</strong>.</p>
+<p>Lakukan pemindaian jaringan menggunakan Nmap untuk menemukan jumlah server dan detail informasi layanan dalam jaringan <strong>10.132.28.0/25</strong>.</p>
 <h3 id="langkah-langkah">Langkah-langkah</h3>
 <ol>
-<li>Lakukan pemindaian jaringan lengkap menggunakan perintah Nmap pada subnet <strong>172.16.100.0/24</strong>.</li>
+<li>Lakukan pemindaian jaringan lengkap menggunakan perintah Nmap pada subnet <strong>10.132.28.0/25</strong>.</li>
 <li>Identifikasi perangkat dalam jaringan yang berfungsi sebagai server (ditandai dengan banyaknya layanan yang aktif di perangkat tersebut).</li>
 <li>Catat data berikut untuk setiap server yang ditemukan:
 <ul>
@@ -26,7 +26,7 @@
 <li>
 <p><strong>Server 1</strong>:</p>
 <ul>
-<li><strong>IP Address</strong>: 172.16.100.10</li>
+<li><strong>IP Address</strong>: 10.132.28.126</li>
 <li><strong>Ports</strong>: 22/tcp, 80/tcp, 443/tcp</li>
 <li><strong>Services</strong>: SSH, HTTP, HTTPS</li>
 <li><strong>Service Version</strong>: OpenSSH 7.4p1, Apache 2.4.29</li>
